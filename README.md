@@ -1,31 +1,24 @@
-# Additional Features for Samsung Devices! 🔗 <br>
-<img src="https://telegra.ph/file/5ac41e6a89dbce3b20452.jpg" width="100%">
+# Mods
 
-<p align="center"> You can unlock more potential to your Samsung device, roms and ports by editing build.props, csc features, camera tweaks and debloat stuff also (Supports OneUI 2.5 and higher)!
+## 1. debloater
 
-<p align="center">
+For more info Click on [debloater](https://github.com/neel021000/MODS/tree/debloater/#/debloater) to know how to use it.
 
-<img src="https://img.shields.io/badge/made%20by-Kartik%20Samnotra-blue?style=for-the-badge&logo=appveyor" >
-<img src="https://img.shields.io/github/stars/KaRTiK0821/Additional_Features_Samsung?style=for-the-badge">
-<img src="https://img.shields.io/github/issues/KaRTiK0821/Additional_Features_Samsung?style=for-the-badge">
-</p>
+## 2. single take ( Camera mode ) 
+Click on [Guide](https://github.com/neel021000/MODS/blob/singletake/README.md/#/guide) to know how to install it.
 
-```
-You are the one who is responsible 
-for any nuclear war happening to your device.
-Cuz i have tested each and every tweak by myself 
-and no issues ever occured to me.
-```
-<hr>
+## 3. linux installation script
+Click on [script](https://github.com/neel021000/MODS/tree/linux/#/script) to know how to install it.
 
+## 4. My Filters ( Camera mode )
+Click on [filters](https://github.com/neel021000/MODS/tree/myfilters#/filters) to know how to install it.
 
-## Tweaks
+## 5. live focus
+Click on [LiveFocus](https://github.com/neel021000/MODS/tree/singletake) to know how to install it.
 
+## 6. Dynamic kitchen
+Click on [Dynamic](https://github.com/neel0210/dynamic) to know how to use it.
 
-<li>Floating Features - <a href="https://github.com/ravindu644/Additional_Features_Samsung/tree/floatingfeature">Here</a>
-<li>Csc Feature - <a href="https://github.com/ravindu644/Additional_Features_Samsung/tree/cscfeature">Here</a>
-<li>Build.prop - <a href="https://github.com/ravindu644/Additional_Features_Samsung/tree/buildprop">Here</a>
-<li>Camera Features - <a href="https://github.com/ravindu644/Additional_Features_Samsung/tree/camera">Here</a>
-<li>Debloat list - <a href="https://github.com/ravindu644/Additional_Features_Samsung/tree/debloat">Here</a>
+## 7. Redmi Flasher
+Click on [Flasher](https://github.com/neel0210/Redmi-flasher) to know how to use it.
 
-<hr>Owner: <a href="https://github.com/el0xren">el0xren</a> | Forked/Modified by: <a href="https://github.com/KaRTiK0821">Kartik Samnotra</a>
