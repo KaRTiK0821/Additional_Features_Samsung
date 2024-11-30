@@ -1,4 +1,4 @@
-# Floating Feature Tweaks 2.0 🍀
+# Floating Feature Tweaks 
 Add these lines in system/etc/floating_feature.xml (One UI 4.x +)  or system/etc/floating_feature.xml (One UI <= 4.1).
 
 ## - Performance Tweaks ⚡ -
@@ -8,7 +8,7 @@ Search for the following line in floating_feature.xml:
 ```
 <SEC_FLOATING_FEATURE_LAUNCHER_CONFIG_ANIMATION_TYPE>
 ```
-And change value from "LowEnd" or "Mass" to "HighEnd"
+And change value from "LowEnd" to "HighEnd"
 ```
 <SEC_FLOATING_FEATURE_LAUNCHER_CONFIG_ANIMATION_TYPE>HighEnd</SEC_FLOATING_FEATURE_LAUNCHER_CONFIG_ANIMATION_TYPE>
 ```
@@ -39,6 +39,8 @@ And change value from "LowEnd" or "Mass" to "HighEnd"
 <SEC_FLOATING_FEATURE_LCD_SUPPORT_WIDE_COLOR_GAMUT>
 ```
 ### 06. Enable Smooth Scroll of Surface Flinger
+> [!NOTE]  
+> - Only use this if you have native/live blur included otherwise it will lag on captured blur.
 ```
 <SEC_FLOATING_FEATURE_FRAMEWORK_SUPPORT_SMOOTH_SCROLL>TRUE</SEC_FLOATING_FEATURE_FRAMEWORK_SUPPORT_SMOOTH_SCROLL>
 ```
@@ -158,6 +160,8 @@ And edit from Your Model to Your Choosed Name, then it shoud look like this:
 ```
 <SEC_FLOATING_FEATURE_SETTINGS_CONFIG_BRAND_NAME>Your Choosed Name</SEC_FLOATING_FEATURE_SETTINGS_CONFIG_BRAND_NAME>
 ```
+> [!NOTE]  
+> - You need to format data to see changes.
 
 ### 03. Enable Wireless PowerShare
 > [!NOTE]  
@@ -260,6 +264,7 @@ Change values from 0000 to your dependencies.
 ### 17. Enable Lock screen wallpaper as AOD screen (OneUI 6.0+)
 > [!NOTE]  
 > - Requires device resource support.
-
-```<SEC_FLOATING_FEATURE_LCD_CONFIG_AOD_FULLSCREEN>1</SEC_FLOATING_FEATURE_LCD_CONFIG_AOD_FULLSCREEN>```
+```
+<SEC_FLOATING_FEATURE_LCD_CONFIG_AOD_FULLSCREEN>1</SEC_FLOATING_FEATURE_LCD_CONFIG_AOD_FULLSCREEN>
+```
 
