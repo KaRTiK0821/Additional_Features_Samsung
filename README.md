@@ -6,8 +6,8 @@
 <p align="center">
 
 <img src="https://img.shields.io/badge/made%20by-Kartik%20Samnotra-blue?style=for-the-badge&logo=appveyor" >
-<img src="https://img.shields.io/github/stars/KaRTiK0821/Samsung_Additional_Features?style=for-the-badge">
-<img src="https://img.shields.io/github/issues/KaRTiK0821/Samsung_Additional_Features?style=for-the-badge">
+<img src="https://img.shields.io/github/stars/KaRTiK0821/Additional_Features_Samsung?style=for-the-badge">
+<img src="https://img.shields.io/github/issues/KaRTiK0821/Additional_Features_Samsung?style=for-the-badge">
 </p>
 
 ```
