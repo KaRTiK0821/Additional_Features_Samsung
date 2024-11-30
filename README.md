@@ -1,5 +1,5 @@
 # Build.prop Tweaks
-Add these lines in Build.prop, which is located in system/system. (Some probably is placebo i haven't tested all of them)
+Add these lines in Build.prop, which is located in system/system.
 ### 01. Circle to search A14+
 ```
 ro.com.google.cdb.spa1=bsxasm1
@@ -8,6 +8,8 @@ ro.bbt.support.circle2search=true
 > [!NOTE]  
 > - These two circle to search build.prop codes aren't enough to enable circle2search, it requires framework & device support, but it's also a part of circle to search that's why it's given here.
 ### 02. Camera Tweaks -> Improves audio and video recording quality
+> [!NOTE]  
+> - Can cause issues with video streaming.
 ```
 ro.media.enc.jpeg.quality=100
 ro.media.dec.jpeg.memcap=8000000
@@ -20,13 +22,16 @@ ro.media.enc.hprof.vid.fps=65
 ro.camera.enableCamera1MaxZsl=1
 camera.disable_zsl_mode=1
 ```
-### 03. Better display quality, lower performance.
+### 03. Better display quality
+> [!NOTE]  
+> - Can cause performance issues.
 ```
 persist.sys.use_dithering=1
 ```
 
 ### 04. Faster streaming videos
-```media.stagefright.enable-player=true
+```
+media.stagefright.enable-player=true
 media.stagefright.enable-meta=true
 media.stagefright.enable-scan=true
 media.stagefright.enable-http=true
@@ -93,7 +98,7 @@ ro.min.fling_velocity=8000
 ro.min_pointer_dur=8
 touch.pressure.scale=0.1
 ```
-### 16. Video Acceleration Enabled And HW debugging (Will improve performance)
+### 16. Gpu Acceleration and HW Debugging
 ```
 debug.hwui.renderer=skiagl
 video.accelerate.hw=1
@@ -117,32 +122,12 @@ net.eth0.dns2=8.8.4.4
 net.gprs.dns1=8.8.8.8
 net.gprs.dns2=8.8.4.4
 ```
-### 18. Disable Knox (try at your own risk!)
-```
-ro.config.knox=0
-ro.config.iccc_version=0
-ro.config.knox.ucm=0
-```
 
-Credit: <a href="https://xdaforums.com/t/tweaks-guide-build-prop-tweaks.3376962/">@XDA
-</a> | [This post](https://xdaforums.com/t/tweaks-for-the-build-prop.3456214/) <hr>
-
-### 19. Enable Zygote preforking
+### 18. Enable Zygote preforking
 ```
 persist.device_config.runtime_native.usap_pool_enabled=true
 ```
-
-### 20. Enable 4K in YouTube ( Some Regions only, can make UI laggy )
-```
-sys.display-size=3840x2160
-video.accelerate.hw=1
-ro.media.enc.jpeg.quality=100
-ro.media.dec.jpeg.memcap=8000000
-ro.media.enc.hprof.vid.bps=8000000
-ro.media.enc.hprof.vid.fps=65
-```
-
-### 21. Enable Launcher in Memory
+### 19. Enable Launcher in Memory
 ```
 ro.HOME_APP_ADJ=15
 ro.FOREGROUND_APP_ADJ=0
@@ -151,7 +136,7 @@ ro.HIDDEN_APP_MIN_ADJ=7
 ```
 > [!NOTE]  
 > - Enable launcher in memory isn't supported after android 7+
-### ¬ Enable Multi User
+### 20. Enable Multi User
 ```
 fw.max_users=5
 fw.show_multiuserui=1
@@ -159,13 +144,13 @@ fw.showhiddenusers=1
 fw.poweruserswitcher=1
 ```
 
-### 22. Enable Google Assistant
+### 21. Enable Google Assistant
 ```
 ro.opa.eligible_device=true
 ```
 > [!NOTE]  
 > - This code will enable Google Assistant 2.0 the new one for all devices, requires Google Assistant supported Google version.
-### ¬ SafetyNET Fix
+### 22. SafetyNET Fix
 ```
 ro.knox.enhance.zygote.aslr=1
 ```
@@ -217,32 +202,19 @@ ro.ril.fast.dormancy.rule=1
 ro.semc.enable.fast_dormancy=true
 ```
 
-### 31. Force GPU Rendering on 2d Operations
-```
-debug.sf.hw=1
-debug.egl.profiler=1
-debug.egl.hw=1
-```
-
-### 32. Call Delay Fix
-```
-ro.telephony.call.ring.delay=0
-ring.delay=0
-```
-
-### 33. Increase Time Duration For WiFi scanning
+### 31. Increase Time Duration For WiFi scanning
 ```
 wifi.supplicant_scan_interval=XXX
 ```
 
-### 34. Save Battery Without Performance Drop
+### 32. Save Battery Without Performance Drop
 ```
 pm.sleep_mode=1
 ro.ril.disable.power.collapse=0
 wifi.supplicant_scan_interval=180
 ```
 
-### 35. Fps cap remover
+### 33. Fps cap remover
 ```
 debug.gr.swapinterval=0
 ro.fps_enable=1
@@ -252,12 +224,12 @@ cpu.fps=60
 gpu.fps=60
 ```
 
-### 36. Faster Booting (Might create pressure in ram)
+### 34. Faster Booting (Might create pressure in ram)
 ```
 ro.config.hw_quickpoweron=true
 ```
 
-### 37. Dalvik Virtual Machine Tweaks
+### 35. Dalvik Virtual Machine Tweaks
 ```
 dalvik.vm.checkjni=false
 dalvik.vm.dexopt-data-only=1
@@ -272,7 +244,7 @@ dalvik.vm.stack-trace-file=/data/anr/traces.txt
 dalvik.vm.jmiopts=forcecopy
 ```
 
-### 38. FPS Stabilizer
+### 36. FPS Stabilizer
 ```
 debug.sf.showupdates=0
 debug.sf.showcpu=0
@@ -280,22 +252,22 @@ debug.sf.showbackground=0
 debug.sf.showfps=0
 ```
 
-### 39. Enable Vulkan
+### 37. Enable Vulkan
 ```
 ro.hwui.use_vulkan=1
 ```
 
-### 40. Dalvik JIT for Dex
+### 38. Dalvik JIT for Dex
 ```
 debug.usejit=true
 ```
 
-### 41. RIL Wakelock Optimization
+### 39. RIL Wakelock Optimization
 ```
 ro.ril.wake_lock_timeout=10000
 ```
 
-### 42. Audio Improvements
+### 40. Audio Improvements
 ```
 vendor.audio.media.stereo.control=0
 persist.audio.dualmic.config=endfire
@@ -321,32 +293,29 @@ vendor.audio.use.sw.ape.decoder=true
 af.fast_track_multiplier=1
 ```
 
-### 43. Extra Dim ( Add in /vendor/build.prop, might cause issues with DRM )
+### 41. Extra Dim ( Add in /vendor/build.prop )
 ```
 ro.surface_flinger.protected_contents=true
 ```
 > [!NOTE]  
 > - This code will enable Rounded corners for PIP - Picture in picture.
 
-### 44. Enable Webcam support for OneUI6.0+
+### 42. Enable Webcam support for OneUI6.0+
 ```
 ro.usb.uvc.enabled=true
 ```
 > [!NOTE]  
 > - Requires kernel support & plugins.
-### 45. Enable Angle Support OneUi6.0+
+### 43. Enable Angle Support OneUi6.0+
 ```
 ro.gfx.angle.supported=true
 ```
-### 46. Change User interface like Tablet
+### 44. Change User interface like Tablet
 ```
 ro.build.characteristics=tablet
 ```
-### 47. Less ram usage
+### 45. Less ram and battery usage
 ```
 debug.force_low_ram=true
-```
-### 48. Less battery use
-```
 ro.config.small_battery=true
 ```
