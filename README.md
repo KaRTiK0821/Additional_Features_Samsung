@@ -22,10 +22,10 @@ and no issues ever occured to me.
 ## Tweaks
 
 
-<li>Floating Features - <a href="https://github.com/ravindu644/Additional_Features_Samsung/tree/floatingfeature">Here</a>
-<li>Csc Feature - <a href="https://github.com/ravindu644/Additional_Features_Samsung/tree/cscfeature">Here</a>
-<li>Build.prop - <a href="https://github.com/ravindu644/Additional_Features_Samsung/tree/buildprop">Here</a>
-<li>Camera Features - <a href="https://github.com/ravindu644/Additional_Features_Samsung/tree/camera">Here</a>
-<li>Debloat list - <a href="https://github.com/ravindu644/Additional_Features_Samsung/tree/debloat">Here</a>
+<li>Floating Features - <a href="https://github.com/KaRTiK0821/Additional_Features_Samsung/tree/floatingfeature">Here</a>
+<li>Csc Feature - <a href="https://github.com/KaRTiK0821/Additional_Features_Samsung/tree/cscfeature">Here</a>
+<li>Build.prop - <a href="https://github.com/KaRTiK0821/Additional_Features_Samsung/tree/buildprop">Here</a>
+<li>Camera Features - <a href="https://github.com/KaRTiK0821/Additional_Features_Samsung/tree/cameratweaks">Here</a>
+<li>Debloat list - <a href="https://github.com/KaRTiK0821/Additional_Features_Samsung/tree/debloat">Here</a>
 
 <hr>Owner: <a href="https://github.com/el0xren">el0xren</a> | Forked/Modified by: <a href="https://github.com/KaRTiK0821">Kartik Samnotra</a>
