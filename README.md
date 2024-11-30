@@ -1,5 +1,6 @@
-# Extra large debloat list for - Samsung Devices Pie, Q and maybe R. This should work for devices with Dynamic Partition, just read list carefully while debloating.
-Keep in mind that some funcions can be lost, due heavy debloat.
+# Debloat list for - Samsung Devices Pie, Q, R, S, T, and maybe U. This should work for devices with Dynamic Partition, even without dynamic partition devices also, just read list carefully while debloating.
+Keep in mind that maybe some of the apps and features maybe missing after heavy debloating. So do it wisely.
+Although debloating wont cause system to crash by any chance.
 
 ### Debloat List
 ```
