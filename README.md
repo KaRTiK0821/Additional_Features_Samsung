@@ -1,18 +1,31 @@
-<img src="https://i.imgur.com/5TYUsxr.png" width="100%">
+# Additional Features for Samsung Devices! 🔗 <br>
+<img src="https://telegra.ph/file/5ac41e6a89dbce3b20452.jpg" width="100%">
 
-<p align="center"> Here you can find how to enable additional features to Floating Feature, Build.prop, Csc Feature!
+<p align="center"> You can unlock more potential to your Samsung device, roms and ports by editing build.props, csc features, camera tweaks and debloat stuff also (Supports OneUI 2.5 and higher)!
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/made%20by-el0xren-blue?style=for-the-badge&logo=appveyor" >
-<img src="https://img.shields.io/github/stars/el0xren/Samsung_Additional_Features?style=for-the-badge">
-<img src="https://img.shields.io/github/issues/el0xren/Samsung_Additional_Features?style=for-the-badge">
-
+<img src="https://img.shields.io/badge/made%20by-Kartik%20Samnotra-blue?style=for-the-badge&logo=appveyor" >
+<img src="https://img.shields.io/github/stars/KaRTiK0821/Samsung_Additional_Features?style=for-the-badge">
+<img src="https://img.shields.io/github/issues/KaRTiK0821/Samsung_Additional_Features?style=for-the-badge">
 </p>
 
-<li>Debloat list - <a href="https://github.com/el0xren/Samsung_Additional_Features/tree/debloat">Here</a>
-<li>Floating Feature Tweaks - <a href="https://github.com/el0xren/Samsung_Additional_Features/tree/floatingfeature">Here</a>
-<li>Csc Feature Tweaks - <a href="https://github.com/el0xren/Samsung_Additional_Features/tree/cscfeature">Here</a>
-<li>Build.prop Tweaks - <a href="https://github.com/el0xren/Samsung_Additional_Features/tree/buildprop">Here</a>
-<li>Camera Tweaks - <a href="https://github.com/neel021000/MODS">Here</a>
-<li>XDA Thread - <a href="https://forum.xda-developers.com/t/additional-features-for-samsung-devices.4181105/">Here</a>
+```
+You are the one who is responsible 
+for any nuclear war happening to your device.
+Cuz i have tested each and every tweak by myself 
+and no issues ever occured to me.
+```
+<hr>
+
+
+## Tweaks
+
+
+<li>Floating Features - <a href="https://github.com/ravindu644/Additional_Features_Samsung/tree/floatingfeature">Here</a>
+<li>Csc Feature - <a href="https://github.com/ravindu644/Additional_Features_Samsung/tree/cscfeature">Here</a>
+<li>Build.prop - <a href="https://github.com/ravindu644/Additional_Features_Samsung/tree/buildprop">Here</a>
+<li>Camera Features - <a href="https://github.com/ravindu644/Additional_Features_Samsung/tree/camera">Here</a>
+<li>Debloat list - <a href="https://github.com/ravindu644/Additional_Features_Samsung/tree/debloat">Here</a>
+
+<hr>Owner: <a href="https://github.com/el0xren">el0xren</a> | Forked/Modified by: <a href="https://github.com/KaRTiK0821">Samsung Tweaks</a>
